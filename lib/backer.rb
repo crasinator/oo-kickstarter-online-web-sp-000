@@ -4,7 +4,7 @@ class Backer
    @@all = [] #all backers created
   def initialiize(name) #create username
     @name = name
-    @backed_projects = [ ]
+    @backed_projects = []
   end 
   
   def back_project(projname)
